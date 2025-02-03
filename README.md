@@ -4,7 +4,6 @@ This repository contains the code for our ICLR 2025 accepted paper, [_Rethinking
 
 ## Table of Contents
 - [Requirements](#requirements)
-- [Datasets](#datasets)
 - [Reproducing Results](#reproducing-results)
 - [Reference](#reference)
 - [Citation](#citation)
