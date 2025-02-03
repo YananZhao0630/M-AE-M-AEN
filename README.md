@@ -46,11 +46,11 @@ Our proposed simple tricks such as adding edges and normalization for node class
 
 ## Citation
 
-			@INPROCEEDINGS{JiZhaZha:C25,
-					author = {Feng Ji and Yanan Zhao and Kai Zhao and Hanyang Meng and Jielong Yang and Wee Peng Tay},
-					title={Rethinking Graph Neural Networks From A Geometric Perspective Of Node Features},
-					booktitle={Proc. International Conference on Learning Representations},
-					month = {Apr.},
-					year={2025},
-					address = {Singapore},
-			}
+@INPROCEEDINGS{JiZhaZha:C25,
+	author = {Feng Ji and Yanan Zhao and Kai Zhao and Hanyang Meng and Jielong Yang and Wee Peng Tay},
+	title={Rethinking Graph Neural Networks From A Geometric Perspective Of Node Features},
+	booktitle={Proc. International Conference on Learning Representations},
+	month = {Apr.},
+	year={2025},
+	address = {Singapore},
+}
