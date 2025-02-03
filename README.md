@@ -40,3 +40,6 @@ python ACM_GCN_normalization.py --dataset actor --wd 2e-4 --train_epoch 20 --gra
 python ACM_GCN_normalization.py --dataset chameleon --wd 2e-5 --graph_type new --prob_lambda 0.08 --train_epoch 30 --seed 10
 
 ```
+## Reference
+
+Our proposed simple tricks such as adding edges and normalization for node classification are based on ACM-GCN model, developed based on the following repo:
