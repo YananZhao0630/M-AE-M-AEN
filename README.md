@@ -28,19 +28,4 @@ python ACM_GCN_heterphlic.py --dataset chameleon --wd 2e-5 --graph_type new --pr
 
 python ACM_GCN_heterphlic.py --dataset actor --wd 1e-4 --graph_type new --prob_lambda 0.1 --seed 10 --train_epoch 20
 
-```bash
-To reproduce the results in Table 3, run the following commands:
-
-
-python ACM_GCN_normalization.py --dataset squirrel --wd 8e-5 --train_epoch 60 --graph_type new --prob_lambda 0.0001
-
-python ACM_GCN_normalization.py --dataset actor --wd 2e-4 --train_epoch 20 --graph_type new --prob_lambda 0.1
-
-python ACM_GCN_normalization.py --dataset chameleon --wd 2e-5 --graph_type new --prob_lambda 0.08 --train_epoch 30 --seed 10
-
-
-## Reference
-
-Our simple tricks such as adding edges and normalization are applied on the basic ACM-GCN model, based on the following repository: https://github.com/SitaoLuan/ACM-GNN/tree/main
-
-## Citation
+```
