@@ -30,4 +30,13 @@ python ACM_GCN_heterphlic.py --dataset actor --wd 1e-4 --graph_type new --prob_l
 
 ```
 
-To reproduce
+To reproduce the results in Table 3, run the following commands:
+
+```bash
+python ACM_GCN_normalization.py --dataset squirrel --wd 8e-5 --train_epoch 60 --graph_type new --prob_lambda 0.0001
+
+python ACM_GCN_normalization.py --dataset actor --wd 2e-4 --train_epoch 20 --graph_type new --prob_lambda 0.1
+
+python ACM_GCN_normalization.py --dataset chameleon --wd 2e-5 --graph_type new --prob_lambda 0.08 --train_epoch 30 --seed 10
+
+```
