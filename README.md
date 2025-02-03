@@ -28,6 +28,7 @@ python ACM_GCN_heterphlic.py --dataset chameleon --wd 2e-5 --graph_type new --pr
 
 python ACM_GCN_heterphlic.py --dataset actor --wd 1e-4 --graph_type new --prob_lambda 0.1 --seed 10 --train_epoch 20
 
+```bash
 To reproduce the results in Table 3, run the following commands:
 
 
