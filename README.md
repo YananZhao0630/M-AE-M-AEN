@@ -43,3 +43,14 @@ python ACM_GCN_normalization.py --dataset chameleon --wd 2e-5 --graph_type new -
 ## Reference
 
 Our proposed simple tricks such as adding edges and normalization for node classification are based on ACM-GCN model, developed based on the following repo: https://github.com/SitaoLuan/ACM-GNN/tree/main
+
+## Citation
+
+			@INPROCEEDINGS{JiZhaZha:C25,
+					author = {Feng Ji and Yanan Zhao and Kai Zhao and Hanyang Meng and Jielong Yang and Wee Peng Tay},
+					title={Rethinking Graph Neural Networks From A Geometric Perspective Of Node Features},
+					booktitle={Proc. International Conference on Learning Representations},
+					month = {Apr.},
+					year={2025},
+					address = {Singapore},
+			}
